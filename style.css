@@ -1,5 +1,5 @@
 section{
-    height: 97vh;
+    height: 86vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +11,15 @@ nav{
     text-align: center;
     top: -90px;
 }
+footer{
+    width: 97vw;
+    height: 0;
+    position: absolute;
+    text-align: center;
+    top: -90px;
+}
 body{
     background-color: hotpink;
-    
 }
 h1.afte{
     -webkit-transition: 3s;
@@ -61,5 +67,13 @@ button:active{
       -o-transition: 3s;
       transition: 3s;
       margin-top: 40% !important;
+    }
+    footer.afte{
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        transition: 2s;
+        margin-top: 110% !important;
     }
 }
