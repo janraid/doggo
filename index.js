@@ -9,5 +9,7 @@ function buttonlistener() {
     setTimeout(() => {
         document.querySelector("h1").setAttribute("class","afte");
     }, 5000);
-    
+    setTimeout(() => {
+        document.querySelector("footer").setAttribute("class","afte");
+    }, 8000);
 }
