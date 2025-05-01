@@ -1,10 +1,13 @@
 document.querySelector("button").addEventListener("click", buttonlistener);
 function buttonlistener() {
-    setTimeout(1000);
-    document.querySelector("button").setAttribute("class", "invisible");
-    visible();
-}
-function visible() {
-    setTimeout(9000);
-    document.querySelector("img").setAttribute("class", "visible");    
+    setTimeout(() => {
+        document.querySelector("button").classList.add("invisible");
+    }, 1000);
+    setTimeout(() => {
+        document.querySelector("img").setAttribute("class","visible");
+    }, 3000);
+    setTimeout(() => {
+        document.querySelector("h1").setAttribute("class","afte");
+    }, 5000);
+    
 }
