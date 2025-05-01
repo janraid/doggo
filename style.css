@@ -21,7 +21,7 @@ h1.afte{
   -ms-transition: 3s;
   -o-transition: 3s;
   transition: 3s;
-  margin-top: 30% !important;
+  margin-top: 20% !important;
 }
 .cont{
     display: flex;
@@ -60,6 +60,6 @@ button:active{
       -o-transition: 3s;
       transition: 3s;
       margin-top: 40% !important;
+    color: blue;
     }
-
 }
