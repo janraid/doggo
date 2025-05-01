@@ -52,3 +52,14 @@ button:active{
     box-shadow: rgba(158, 24, 24, 0) 0px 7px 50px 0px;
 
 }
+@media (max-width: 520px) {
+    h1.afte{
+        -webkit-transition: 3s;
+      -moz-transition: 3s;
+      -ms-transition: 3s;
+      -o-transition: 3s;
+      transition: 3s;
+      margin-top: 30% !important;
+    }
+
+}
