@@ -49,6 +49,7 @@ button{
     transition: 0.3s ease-out;
 }
 button:active{
+    opacity: 0.5;
     box-shadow: rgba(158, 24, 24, 0) 0px 7px 50px 0px;
 
 }
@@ -60,6 +61,5 @@ button:active{
       -o-transition: 3s;
       transition: 3s;
       margin-top: 40% !important;
-    color: blue;
     }
 }
