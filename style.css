@@ -1,9 +1,27 @@
-body{
-    height: 100vh;
-    background-color: hotpink;
+section{
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+nav{
+    width: 97vw;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: -90px;
+}
+body{
+    background-color: hotpink;
+    
+}
+h1.afte{
+    -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
+  margin-top: 20% !important;
 }
 .cont{
     display: flex;
@@ -12,9 +30,11 @@ body{
 }
 .invisible {
     visibility: hidden;
+    transition: 1s linear;
 }
 .visible {
     visibility: visible;
+    transition: 1s linear;
 }
 button{
     position: absolute;
@@ -26,7 +46,7 @@ button{
     padding: 1rem 3rem;
     border-radius: 2rem;
     cursor: pointer;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 button:active{
     box-shadow: rgba(158, 24, 24, 0) 0px 7px 50px 0px;
